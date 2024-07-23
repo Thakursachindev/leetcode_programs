@@ -1,7 +1,7 @@
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-if (nums.empty()) {
+        if (nums.empty()) {
             return 0;
         }
         sort(nums.begin(), nums.end());
